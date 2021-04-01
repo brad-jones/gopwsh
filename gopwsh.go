@@ -228,6 +228,13 @@ func (s *Shell) Execute(cmds ...string) (string, string, error) {
 	return stdout, stderr, nil
 }
 
+// MustExecute is the same as Execute but panics on error instead of returning an error.
+func (s *Shell) MustExecute(cmds ...string) (string, string) {
+	stdout, stderr, err := s.Execute(cmds...)
+	goerr.Check(err)
+	return stdout, stderr
+}
+
 func (s *Shell) execute(cmd string) (string, string, error) {
 	if s.backend == nil {
 		return "", "", goerr.Wrap("Cannot execute commands on closed shells.", cmd)
