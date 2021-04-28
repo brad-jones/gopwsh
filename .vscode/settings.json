@@ -1,3 +1,18 @@
 {
-	"cSpell.words": ["gopwsh"]
+	"cSpell.words": [
+		"Println",
+		"cmds",
+		"commitlint",
+		"dependabot",
+		"goerr",
+		"goexec",
+		"gofmt",
+		"gomod",
+		"gopwsh",
+		"pwsh",
+		"serr",
+		"sout",
+		"thanhpk",
+		"xargs"
+	]
 }
