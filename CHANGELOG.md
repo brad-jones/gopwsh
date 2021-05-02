@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/brad-jones/gopwsh/compare/v1.1.0...v1.1.1) (2021-05-02)
+
+
+### Bug Fixes
+
+* **deps:** bump github.com/brad-jones/goexec/v2 from 2.1.6 to 2.1.7 ([#5](https://github.com/brad-jones/gopwsh/issues/5)) ([04a8109](https://github.com/brad-jones/gopwsh/commit/04a8109c5ccee16b9b610485645c2fb4f96cd815))
+
 # [1.1.0](https://github.com/brad-jones/gopwsh/compare/v1.0.0...v1.1.0) (2021-04-01)
 
 
